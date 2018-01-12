@@ -91,7 +91,7 @@ input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-s
 @media screen and (max-width:550px){
   .soon{font-size: 70px; position: relative;bottom: 10px;}
 .com{font-size: 60px;}  
-    .matter{flex-direction: column;justify-content: center;align-items: flex-start;}
+    .matter{flex-direction: column;justify-content: center;align-items: flex-start;margin: auto;border: 1px olid white;}
     .comp,.contact{width: 300px;;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px;}
     #cletf1{width: 200px;}
     .comp{order: -2;border-bottom: 2px solid white;padding-bottom: 15px}
