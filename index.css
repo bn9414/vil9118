@@ -79,10 +79,10 @@ left: 25px;position: relative;display: inline-block;transform: rotate(-7deg);z-i
 
 
 #cletf1{width:  320px;; margin: auto;margin: 0px 0px;;position: relative;margin-top: 10px}
-#cletf1 input{ width: 320px; height: auto; padding: 13px 0px; padding-left: 10px;padding-right: 50px;  border-style: none; border-radius: 50px; font-size: 18px; color: #2B2D42;
+#cletf1 .mail{ width: 320px; height: auto; padding: 13px 0px; padding-left: 10px;padding-right: 50px;  border-style: none; border-radius: 50px; font-size: 18px; color: #2B2D42;
 box-sizing: border-box}
-input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-serif; }
- input:focus{
+.mail::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-serif; }
+ .mail:focus{
      outline: none;}
 
 .submit{width: 40px; height: 40px;border-radius: 50%; background-color: #2e4f87;position: absolute;left: 86%;top: 5%; background-image: url(images/right.svg);background-repeat: no-repeat;background-position: 8px;background-size: 28px}
