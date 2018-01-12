@@ -65,9 +65,9 @@ left: 25px;position: relative;display: inline-block;transform: rotate(-7deg);z-i
 /*soon*/
 
 /*start: matter*/
-.matter{width: 100%;height: auto; color: #fcfcfc;display: flex;justify-content: space-around;align-items: center;font-family: 'Roboto', sans-serif;padding-top: 25px;padding-left: 25px;}
+.matter{width: 100%;height: auto; color: #fcfcfc;display: flex;justify-content: center;align-items: center;font-family: 'Roboto', sans-serif;padding-top: 25px;padding-left: 25px;}
 .matter *{border: 1px solid black;}
-.comp,.contact{width: 40%; height: inherit;}
+.comp,.contact{width: 350px;; height: inherit;}
 .contact{width: 30%;padding-left: 20px;}
 .contact div{margin: 10px;padding-left: 5px;font-size: 22px;display: flex;justify-content: center;align-items: center;}
 .contact h2{margin: 10px;}
@@ -94,8 +94,8 @@ input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-s
 @media screen and (max-width:550px){
   .soon{font-size: 70px; position: relative;bottom: 10px;}
 .com{font-size: 60px;}  
-    .matter{flex-direction: column;justify-content: center;align-items: center;}
-    .comp,.contact{width: 90%;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px;}
+    .matter{flex-direction: column;justify-content: center;align-items: flex-start;}
+    .comp,.contact{width: 300px;;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px;}
     #cletf1{width: 200px;}
     .comp{order: -2}
     input::placeholder{color: #717171; font-size: 11px;font-family: 'Open Sans', sans-serif; }
@@ -105,8 +105,8 @@ input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-s
     .contact p{font-size: 18px;text-decoration: none;color: #fcfcfc !important;}
     .contact div{padding-left: 0px;margin-left: 0px;}
     .contact h2{margin-left: 0px;}
-    #cletf1{left: px;margin-left: 15px;}
-    .submit{left: 85%;background-color: red; width: 40px; height: 40px}
+    #cletf1{}
+    .submit{left: 85%;background-color: yellow; width: 40px; height: 40px}
 }
 
 /*end: matter*/
