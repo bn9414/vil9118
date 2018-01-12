@@ -88,11 +88,11 @@ input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-s
 .submit{width: 40px; height: 40px;border-radius: 50%; background-color: #2e4f87;position: absolute;left: 86%;top: 5%; background-image: url(images/right.svg);background-repeat: no-repeat;background-position: 8px;background-size: 28px}
 
 .div{width: 3px;height: 250px;background-color: #fcfcfc}
-@media screen and (max-width:550px){
+@media screen and (max-width:800px){
   .soon{font-size: 70px; position: relative;bottom: 10px;}
 .com{font-size: 60px;}  
     .matter{flex-direction: column;justify-content: center;align-items: flex-start;margin: auto;border: 1px olid white;}
-    .comp,.contact{width: 300px;;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px;}
+    .comp,.contact{width: 270px;;font-size: 14px;justify-content: center;align-items: flex-start;padding: 0px; }
     #cletf1{width: 200px;}
     .comp{order: -2;border-bottom: 2px solid white;padding-bottom: 15px}
     input::placeholder{color: #717171; font-size: 11px;font-family: 'Open Sans', sans-serif; }
@@ -104,7 +104,7 @@ input::placeholder{color: #717171; font-size: 16px;font-family: 'Roboto', sans-s
     .contact h2{margin-left: 0px;}
     #cletf1{width: 250px;}
     #cletf1 input{width: 250px;}
-    .submit{left: 82%;background-color: #2e4f87;top: 5px; width: 40px; height: 40px}
+    .submit{left: 82%;background-color: #2e4f87;top: 3px; width: 40px; height: 40px}
 }
 
 /*end: matter*/
